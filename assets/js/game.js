@@ -16,7 +16,8 @@ const start = () => {
       create: create,
     },
   };
-  var game = new Phaser.Game(config);
+
+  new Phaser.Game(config);
 
   function preload() {
     this.load.setBaseURL("https://labs.phaser.io");
